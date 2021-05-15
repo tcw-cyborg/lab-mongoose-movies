@@ -9,6 +9,6 @@ const celebritySchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const celebrityModel = mongoose.model("celebrity", celebritySchema);
+const celebrityModel = mongoose.model("Celebrity", celebritySchema);
 
 module.exports = celebrityModel;
